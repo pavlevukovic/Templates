@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    font-family: Open Sans;
+    font-weight: 300;
+    text-align: center;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+    background-color: inherit !important;
+    color: inherit !important;
+}
+
+a.active,
+a:hover {
+    font-weight: 600;
+}

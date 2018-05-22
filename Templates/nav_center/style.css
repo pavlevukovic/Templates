@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+a.active,
+a:hover {
+    font-weight: 600;
+}
+
+/*Navigation sm-up*/
+
+.navbar_custom {
+    text-align: center;
+    margin-top: 20px;
+    height: 48px;
+    margin-bottom: 0;
+}
+
+.logo img {
+    height: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.center_nav {
+    padding-top: 15px;
+    word-spacing: 2em;
+}
+
+@media (max-width:991px) {
+    .logo img {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+}
+
+/*Navigation xs*/
+
+.logo_xs {
+    text-align: left !important;
+}
+
+.logo_xs img {
+    height: 32px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu_custom > .dropdown {
+    text-align: right;
+}
+
+.menu_custom > .dropdown button {
+    border: 0;
+    background-color: inherit;
+    font-size: 1.5em;
+}
